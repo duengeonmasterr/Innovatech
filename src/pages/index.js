@@ -7,6 +7,7 @@ import Herosection from "../components/reusable/herosection"
 import Infoblock from "../components/reusable/Infoblock"
 import DualInfoblock from "../components/reusable/DualInfoblock"
 import Coursecart from "../components/cart/Coursecart"
+import Bundelcart from "../components/cart/Bundelcart"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -20,6 +21,7 @@ const IndexPage = ({ data }) => (
     />
     <Infoblock heading="About Us" />
     <Coursecart courses={data.courses}/>
+    <Bundelcart bundles={data.bundles}/>
     <DualInfoblock heading="Our Team" />
   </Layout>
 )
@@ -50,6 +52,21 @@ export const query = graphql`
         }
       }
     }
+    bundles: allContentfulBundles {
+      edges {
+        node {
+          id
+          title
+          price
+          
+          image {
+            fixed(width: 200, height: 120) {
+              ...GatsbyContentfulFixed_tracedSVG
+            }
+          }
+        }
+      }
+}
     
   }
 `
