@@ -15,10 +15,10 @@ export default class Navbar extends Component {
                     url:'/aboutus/'},
                  {  id:3,
                     text:"Services",
-                    url:'/'},
+                    url:'/Services/'},
                  {  id:4,
                     text:"Contact us",
-                    url:'/'}
+                    url:'/Contactus/'}
                 ]
 
     }
@@ -33,7 +33,7 @@ export default class Navbar extends Component {
     render() {
         return (
             <nav className="navbar navbar-expand-sm bg-theme text-white">
-                <a href="/" className="navbar-brand ml-5">
+                <a href="#" className="navbar-brand ml-5 ">
                     <img src={logo} alt ="logo" width="40px"/>
                 </a>
               <button className="navbar-toggler" type="button" onClick={this.myToggler}>
@@ -52,7 +52,7 @@ export default class Navbar extends Component {
                    
                    
                     <li className="nav-item">
-                        <a href="/" className="nav-link text-white"><FaShoppingBasket className="cart-icon"/></a>
+                        <a href="#" className="nav-link text-white snipcart-checkout"><FaShoppingBasket className="cart-icon"/></a>
                     </li>
                   </ul>
               </div>
