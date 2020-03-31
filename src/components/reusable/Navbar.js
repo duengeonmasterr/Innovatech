@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react'
 import {Link} from "gatsby"
 import logo from '../../images/logo.png'
@@ -13,10 +14,8 @@ export default class Navbar extends Component {
                  {  id:2,
                     text:"About Us",
                     url:'/aboutus/'},
+                 
                  {  id:3,
-                    text:"Services",
-                    url:'/Services/'},
-                 {  id:4,
                     text:"Contact us",
                     url:'/Contactus/'}
                 ]

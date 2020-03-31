@@ -8,41 +8,28 @@ export default function DualInfoblock({ heading }) {
         <div className="row">
           <div className="mx-auto col-8">
             <p className="text-white lead mb-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
-              incidunt totam. Voluptates obcaecati consequuntur fuga, dolor
-              molestias voluptas nesciunt architecto animi aliquam nobis harum
-              id similique cupiditate odit fugiat rem eaque assumenda alias
-              delectus suscipit repellat facilis vero, ratione ipsam! Ducimus
-              minus explicabo id maiores similique corporis expedita blanditiis
-              atque cum quam fugiat nisi repellat vel vero distinctio, velit
-              necessitatibus.delectus suscipit repellat facilis vero, ratione ipsam! Ducimus
-              minus explicabo id maiores similique corporis expedita blanditiis
-              atque cum quam fugiat nisi repellat vel vero distinctio, velit
-              necessitatibus.delectus suscipit repellat facilis vero, ratione ipsam! Ducimus
-              minus explicabo id maiores similique corporis expedita blanditiis
-              atque cum quam fugiat nisi repellat vel vero distinctio, velit
-              necessitatibus.delectus suscipit repellat facilis vero, ratione ipsam! Ducimus
-              minus explicabo id maiores similique corporis expedita blanditiis
-              atque cum quam fugiat nisi repellat vel vero distinctio, velit
-              necessitatibus.delectus suscipit repellat facilis vero, ratione ipsam! Ducimus
-              minus explicabo id maiores similique corporis expedita blanditiis
-              atque cum quam fugiat nisi repellat vel vero distinctio, velit
-              necessitatibus.
+              Why Us?
+
+This website is the platform which connects students and teachers from different sections of society. Here, students will find video lectures, written notes and 24 hour guidance from the teachers connected to us remotely. Proper login system for students and teachers and formalized notes for studying various programming languages starting from basic Python, C, C++, Java, Web development, Android App development, Data Structures and Algorithms to advanced levels at least cost ever makes this website more approachable and budget friendly to use. 
+
+Our Team
+
+Harshita Garg
+Sanchi Bansal 
+Harshit Sachdeva
             </p>
           </div>
           <div className="col-4">
             <div className="card">
               <img
                 className="card-img-top"
-                src="https://images.pexels.com/photos/1261427/pexels-photo-1261427.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                src="https://code.org/shared/images/social-media/codeorg2019_social.png"
                 alt="Card image cap"
               ></img>
               <div className="card-body">
                 <h5 className="card-title">Our leader</h5>
                 <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-                  dignissimos velit molestias reiciendis consequuntur laborum
-                  est eosquasi possimus. Quae, officia ex.
+                  This website is the platform which connects students and teachers from different sections of society. Here, students will find video lectures, written notes and 24 hour guidance from the teachers connected to us remotely. Proper login system for students and teachers and formalized notes for studying various programming languages starting from basic Python, C, C++, Java, Web development, Android App development, Data Structures and Algorithms to advanced levels at least cost ever makes this website more approachable and budget friendly to use. 
                 </p>
                 <a href="#" className="btn btn-primary">
                   a message for you

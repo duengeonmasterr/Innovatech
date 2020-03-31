@@ -18,6 +18,25 @@ const AboutPage = ({ data }) => (
       subtitle=""
       heroclass="about-background"
     />
+      <div className="row my-3">
+            <div className="col-10 mx-auto  text-center">
+              {this.state.mycategories.map((category, index) => {
+                return (
+            <button
+                    type="button"
+                    className="btn btn-info m-3 px-3"
+                     key={index}
+                     onClick={() => {
+                       this.catyClicked(category)
+                     }}>
+                     {category}
+             </button>
+           
+                )
+              })}
+           </div>
+          </div>  
+
       <DualInfoblock heading="A message from ceo" />
       <Infoblock heading="Our vision" />
       <Teamphotosection  />
